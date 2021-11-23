@@ -5,7 +5,7 @@ echo "[Welcome to Guessing Game.]"
 function Guess {
 	echo "Please Guess the number of files in current directory:"
 	read guess
-    files=$(ls -1 | wc -l)
+    files=$(ls -l | wc -l)
     
 }
 
