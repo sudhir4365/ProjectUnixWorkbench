@@ -23,4 +23,4 @@ do
 done
 
 echo "Congratulation! That's the correct answer. You have done it. Here is the list: "
-echo " " && ls -1
+echo " " && ls -l
