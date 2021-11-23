@@ -3,9 +3,9 @@
 echo "[Welcome to Guessing Game.]"
 
 function Guess {
-	echo "Please Guess the number of files in current directory:"
+	echo "Please Guess the number of files in current directory: 0-10"
 	read guess
-    files=$(ls -l | wc -l)
+	files=$(ls -1 | wc -l)
     
 }
 
@@ -23,4 +23,4 @@ do
 done
 
 echo "Congratulation! That's the correct answer. You have done it. Here is the list: "
-echo " " && ls -l
+echo " " && ls -1
